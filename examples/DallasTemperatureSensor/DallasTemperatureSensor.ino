@@ -38,7 +38,7 @@
 
 #define COMPARE_TEMP 1 // Send temperature only if changed? 1 = Yes 0 = No
 
-#define ONE_WIRE_BUS 3 // Pin where dallase sensor is connected 
+#define ONE_WIRE_BUS 3 // Pin where Dallas sensor is connected 
 #define MAX_ATTACHED_DS18B20 16
 unsigned long SLEEP_TIME = 30000; // Sleep time between reads (in milliseconds)
 OneWire oneWire(ONE_WIRE_BUS); // Setup a oneWire instance to communicate with any OneWire devices (not just Maxim/Dallas temperature ICs)
